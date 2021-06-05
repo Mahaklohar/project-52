@@ -44,7 +44,7 @@ a :link{
 a :visited{
     color: #445a95;
 }
-.grid :hover{
+.origami :hover{
     transform: scale(1.2);
 }
 
