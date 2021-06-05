@@ -1,0 +1,46 @@
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(75, 75, 75);   
+}
+body{ 
+    background-color: rgb(235, 255, 254);
+    text-align: center;
+    margin: 10px;
+    color: rgb(75, 75, 75); ;
+    
+}
+
+.main{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+.between{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header{ 
+    position: relative
+}
+
+h1 {
+    position: absolute;
+    top: 5%;
+    left: 43%;
+}
+.main{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+}
+.between{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    right: 5%;
+}

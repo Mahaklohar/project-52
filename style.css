@@ -1,0 +1,81 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6a1a1;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #445a95;
+}
+
+body{
+    background-color: #fff5ee;
+    margin: 0px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    grid-row-gap: 30px;
+    margin: 20px;
+   
+    
+}
+.grid img{
+    border: 5px solid #afeeee;
+    border-radius: 50px;
+}
+.origami{
+    border-radius: 20px;
+    background-color: #ffd7f2;
+    padding: 30px;
+    margin: 20px;
+
+    width: 350px;
+    height: 460px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a :link{
+    color: #445a95;
+}
+a :visited{
+    color: #445a95;
+}
+.grid :hover{
+    transform: scale(1.2);
+}
+
+.bodyImg {
+    position: relative;
+}
+
+.bodyImg p{
+    font-size: 40px;
+    color: rgb(46, 46, 46);
+    position: absolute;
+    top:10%;
+    left: 33%
+}
+.bodyImg h3{
+    color: rgb(46, 46, 46);
+    position: absolute;
+    top:40%;
+    left: 8%;
+    right: 8%
+    
+    
+}
+.bodyImg{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
